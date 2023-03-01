@@ -14,3 +14,5 @@ Queues are often used in computer systems for various purposes, such as process 
 - clear-empty queue
 - size-queue length
 - isEmpty-check queue is empty
+
+## Priority Queue
