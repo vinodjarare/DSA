@@ -16,3 +16,19 @@ Queues are often used in computer systems for various purposes, such as process 
 - isEmpty-check queue is empty
 
 ## Priority Queue
+
+A priority queue is a data structure that allows for efficient insertion and removal of elements based on their priority. Each element in the queue is assigned a priority value, and elements with higher priority values are given precedence over elements with lower priority values.
+
+Priority queues are commonly used in computer algorithms and programming for applications such as task scheduling, job prioritization, and network routing. They can be implemented using various data structures, including arrays, linked lists, heaps, and binary search trees.
+
+The basic operations on a priority queue are:
+
+- Insertion: This operation adds a new element to the priority queue while maintaining the order of elements based on their priority.
+
+- Removal: This operation removes the element with the highest priority from the priority queue.
+
+- Peek: This operation returns the element with the highest priority without removing it from the priority queue.
+
+Priority queues can be implemented as either a max-heap or a min-heap. In a max-heap, the element with the highest priority has the highest value, while in a min-heap, the element with the highest priority has the lowest value.
+
+Overall, priority queues provide a convenient and efficient way to manage and prioritize elements in a wide range of applications.
