@@ -1,6 +1,10 @@
 class MyArray {
-  constructor() {
-    this.items = [];
+  constructor(array) {
+    if (array) {
+      this.items = [...array];
+    } else {
+      this.items = [];
+    }
   }
 
   // Access an element in the array
@@ -51,6 +55,8 @@ class MyArray {
 }
 
 const arr = new MyArray();
+
+arr.print();
 
 arr.insert(0, 5);
 arr.insert(1, 9);
