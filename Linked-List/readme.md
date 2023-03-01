@@ -19,3 +19,7 @@ Linked lists have various use cases in computer science and programming. Here ar
 - 4. Symbol tables: In computer science, a symbol table is a data structure used to associate values with keys. A linked list can be used to implement a symbol table by representing each key-value pair as a node in the list.
 
 Overall, linked lists are a versatile data structure that can be used in many different applications where dynamic data storage and modification are required.
+
+# Doubly Linked List
+
+A doubly linked list is a type of linked list where each node contains a reference to both the next node and the previous node in the sequence. This allows for efficient traversal of the list in both directions, compared to singly linked lists which only allow traversal in one direction.
