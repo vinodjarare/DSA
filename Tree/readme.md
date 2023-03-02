@@ -15,3 +15,11 @@ Some common types of trees include:
 - B-tree - A B-tree is a tree data structure in which each node can have more than two children and is used to store large amounts of data on disk or other external storage devices.
 
 - Trees are used in various applications such as file systems, computer networks, decision trees, and game trees. They provide efficient search, insertion, and deletion operations, making them a popular data structure in computer science.
+
+## Binary Tree
+
+The binary tree is a hierarchical structure where the nodes are arranged in levels, with the root node at the top level and the leaf nodes at the bottom level. Each node in the tree can have zero, one, or two children nodes.
+
+The binary tree has several useful properties that make it a popular data structure for many applications. For example, it can be used to efficiently store and retrieve data, as well as to perform various algorithms such as traversal, search, and sorting.
+
+There are different types of binary trees, such as balanced and unbalanced binary trees, complete binary trees, full binary trees, and perfect binary trees. The type of binary tree chosen depends on the specific application and the requirements of the data being stored.
