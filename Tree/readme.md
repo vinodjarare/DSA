@@ -31,3 +31,33 @@ In computer science, binary search trees (BST), sometimes called ordered or sort
 Binary search trees keep their keys in sorted order, so that lookup and other operations can use the principle of binary search: when looking for a key in a tree (or a place to insert a new key), they traverse the tree from root to leaf, making comparisons to keys stored in the nodes of the tree and deciding, on the basis of the comparison, to continue searching in the left or right subtrees. On average, this means that each comparison allows the operations to skip about half of the tree, so that each lookup, insertion or deletion takes time proportional to the logarithm of the number of items stored in the tree. This is much better than the linear time required to find items by key in an (unsorted) array, but slower than the corresponding operations on hash tables.
 
 A binary search tree of size 9 and depth 3, with 8 at the root. The leaves are not drawn.
+
+## AVL Tree
+
+In computer science, an AVL tree (named after inventors Adelson-Velsky and Landis) is a self-balancing binary search tree. It was the first such data structure to be invented. In an AVL tree, the heights of the two child subtrees of any node differ by at most one; if at any time they differ by more than one, rebalancing is done to restore this property. Lookup, insertion, and deletion all take O(log n) time in both the average and worst cases, where n is the number of nodes in the tree prior to the operation. Insertions and deletions may require the tree to be rebalanced by one or more tree rotations.
+
+Animation showing the insertion of several elements into an AVL tree. It includes left, right, left-right and right-left rotations.
+
+![AVL Tree](https://upload.wikimedia.org/wikipedia/commons/f/fd/AVL_Tree_Example.gif)
+
+AVL tree with balance factors (green)
+
+![AVL Tree](https://upload.wikimedia.org/wikipedia/commons/a/ad/AVL-tree-wBalance_K.svg)
+
+### AVL Tree Rotations
+
+**Left-Left Rotation**
+
+![Left-Left Rotation](http://btechsmartclass.com/data_structures/ds_images/LL%20Rotation.png)
+
+**Right-Right Rotation**
+
+![Right-Right Rotation](http://btechsmartclass.com/data_structures/ds_images/RR%20Rotation.png)
+
+**Left-Right Rotation**
+
+![Left-Right Rotation](http://btechsmartclass.com/data_structures/ds_images/LR%20Rotation.png)
+
+**Right-Left Rotation**
+
+![Right-Right Rotation](http://btechsmartclass.com/data_structures/ds_images/RL%20Rotation.png)
